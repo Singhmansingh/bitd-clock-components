@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+.cls-2 {
+  fill: rgb(255, 136, 0);
+}
+
+.cls-1 {
+  fill: rgb(65, 65, 65);
+}
+
+.cl-dark .cls-2{
+  fill: #f73737;
+}
